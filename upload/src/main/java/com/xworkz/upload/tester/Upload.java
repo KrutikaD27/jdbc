@@ -22,7 +22,7 @@ public class Upload {
 			pstmt.setString(1, "application_name");
 
 			FileReader reader = new FileReader(
-					"C:\\Users\\cheta\\OneDrive\\Desktop\\JDBC work space\\git-jdbc\\application.txt");
+					"C:\\Users\\kartik\\OneDrive\\Desktop\\kruti\\application.txt");
 			
 			pstmt.setCharacterStream(1, reader);
 
